@@ -18,7 +18,7 @@ public class Ticket extends Fragment{
 	@SuppressLint("SetJavaScriptEnabled")
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.fragment_2, container, false);
+		View view = inflater.inflate(R.layout.ticket, container, false);
 		myWebView = (WebView)view.findViewById(R.id.myWebView);
 		
 		myWebView.getSettings().setJavaScriptEnabled(true);                

@@ -18,12 +18,12 @@ public class MainTabActivity extends FragmentActivity{
 	
 	private LayoutInflater layoutInflater;
 		
-	private Class fragmentArray[] = {FragmentPage1.class,Ticket.class,FragmentPage3.class,FragmentPage4.class,FragmentPage5.class};
+	private Class fragmentArray[] = {Home.class,Ticket.class,Oil.class,Settings.class};
 	
 	private int mImageViewArray[] = {R.drawable.tab_home_btn,R.drawable.tab_message_btn,R.drawable.tab_selfinfo_btn,
-									 R.drawable.tab_square_btn,R.drawable.tab_more_btn};
+									 R.drawable.tab_more_btn};
 	
-	private String mTextviewArray[] = {"首页", "违章", "加油", "加油", "设置"};
+	private String mTextviewArray[] = {"首页", "违章", "加油", "设置"};
 	
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
