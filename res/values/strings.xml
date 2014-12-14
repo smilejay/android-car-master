@@ -4,5 +4,6 @@
     <string name="app_name">汽车管家</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="image_description">Just an image description.</string>
 
 </resources>
