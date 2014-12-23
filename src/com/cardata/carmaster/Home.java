@@ -18,7 +18,7 @@ import android.widget.Toast;
 public class Home extends Fragment{
 
 //	private static final String HOME_ACTION = "com.cardata.carmaster.HOME";
-	private static final String url = "http://smilejay.com:8000/api/get_all_categories/";
+	private static final String url = "http://120.27.49.100:8000/api/get_all_categories/";
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
